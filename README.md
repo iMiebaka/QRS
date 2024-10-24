@@ -1,7 +1,7 @@
 # Dynamic Question Assignment System
 
-<img src="https://github.com/iMiebaka/QRS/blob/main/design-diagram.png?raw=true" />
-
+<img src="https://github.com/iMiebaka/QRS/blob/main/diagram.png?raw=true" />
+ 
 ### Overview
 This project is a scalable system designed to assign dynamic questions to users based on their region and the current cycle. Each region receives a different set of questions, and questions rotate on a configurable cycle (e.g., every week, every two weeks). The system is built using Node.js, Express, DynamoDB, and Redis for caching, with scheduled updates managed by cron jobs.
 
